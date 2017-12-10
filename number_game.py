@@ -21,7 +21,7 @@ def game():
                 print("Congrats you got it after {} try!".format(secret_number))
             elif guess < secret_number:
                 print("my number is higher than {}!".format(guess))
-            else guess > secret_number:
+            elif guess > secret_number:
                 print("my number is lower than {}!".format(guess))
             guesses.append(guess)
     #after the the while loop is complete it'll print below
